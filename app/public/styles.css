@@ -1,0 +1,56 @@
+.input-group-text {
+  background: darkslategray;
+  color: #efefef;
+}
+
+#statement-div-wrapper {
+  width: 100%;
+}
+
+.statement-divs {
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px;
+  background: darkslategray;
+  color: #efefef;
+  width: 100%;
+}
+
+.form-control {
+  width: 100%;
+  background: #efefef;
+}
+
+.input-group-lg {
+  margin-bottom: 20px;
+}
+
+.jumbotron {
+  background: #4f2f2f;
+  color: #efefef;
+  font-weight: bold;
+}
+
+footer {
+  padding: 35px;
+  background: #777;
+  text-align: center;
+}
+
+footer p {
+  font-size: 20px;
+  color: #efefef;
+}
+
+.btn {
+  background: darkslategray;
+  border: none;
+  font-weight: bold;
+  padding: 20px;
+  width: 200px;
+  margin: 0px auto 20px auto;
+}
+
+.btn:hover {
+  background: #4f2f2f;
+}

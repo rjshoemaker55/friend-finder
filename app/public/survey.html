@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel='stylesheet' href='/styles.css' type='text/css'>
+</head>
+
+<body>
+
+  <div class="jumbotron jumbotron-fluid text-center">
+    <div class="container">
+      <h1 class="display-4">Friend Finder</h1>
+      <p class="lead">Find your most compatible friend!</p>
+    </div>
+  </div>
+
+  <div class='container'>
+    <div class='col-12'>
+      <div class='row'>
+
+
+        <div class="input-group input-group-lg">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-lg">Name: </span>
+          </div>
+          <input type="text" id='name-input' class="form-control" aria-label="Sizing example input"
+            aria-describedby="inputGroup-sizing-lg">
+        </div>
+
+        <div class="input-group input-group-lg">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-lg">Link to your picture: </span>
+          </div>
+          <input type="text" id='picture-input' class="form-control" aria-label="Sizing example input"
+            aria-describedby="inputGroup-sizing-large">
+        </div>
+
+        <div id='statement-div-wrapper'>
+
+          <div class='statement-divs'>
+            <h4>Statement 1:</h4>
+            <p class='statement-labels'>You like spicy food.</p>
+            <select id='statement-1' class="form-control">
+              <option>Select one</option>
+              <option value='1'>1 (strongly disagree)</option>
+              <option value='2'>2 (disagree)</option>
+              <option value='3'>3 (neutral)</option>
+              <option value='4'>4 (agree)</option>
+              <option value='5'>5 (strongly agree)</option>
+            </select>
+          </div>
+
+          <div class='statement-divs'>
+            <h4>Statement 2:</h4>
+            <p class='statement-labels'>You enjoy the outdoors.</p>
+            <select id='statement-2' class="form-control">
+              <option>Select one</option>
+              <option value='1'>1 (strongly disagree)</option>
+              <option value='2'>2 (disagree)</option>
+              <option value='3'>3 (neutral)</option>
+              <option value='4'>4 (agree)</option>
+              <option value='5'>5 (strongly agree)</option>
+            </select>
+          </div>
+
+          <div class='statement-divs'>
+            <h4>Statement 3:</h4>
+            <p class='statement-labels'>You like going out on the weekends.</p>
+            <select id='statement-3' class="form-control">
+              <option>Select one</option>
+              <option value='1'>1 (strongly disagree)</option>
+              <option value='2'>2 (disagree)</option>
+              <option value='3'>3 (neutral)</option>
+              <option value='4'>4 (agree)</option>
+              <option value='5'>5 (strongly agree)</option>
+            </select>
+          </div>
+
+          <div class='statement-divs'>
+            <h4>Statement 4:</h4>
+            <p class='statement-labels'>You like to travel.</p>
+            <select id='statement-4' class="form-control">
+              <option>Select one</option>
+              <option value='1'>1 (strongly disagree)</option>
+              <option value='2'>2 (disagree)</option>
+              <option value='3'>3 (neutral)</option>
+              <option value='4'>4 (agree)</option>
+              <option value='5'>5 (strongly agree)</option>
+            </select>
+          </div>
+
+          <div class='statement-divs'>
+            <h4>Statement 5:</h4>
+            <p class='statement-labels'>You like the show "The Office".</p>
+            <select id='statement-5' class="form-control">
+              <option>Select one</option>
+              <option value='1'>1 (strongly disagree)</option>
+              <option value='2'>2 (disagree)</option>
+              <option value='3'>3 (neutral)</option>
+              <option value='4'>4 (agree)</option>
+              <option value='5'>5 (strongly agree)</option>
+            </select>
+          </div>
+
+          <div class='statement-divs'>
+            <h4>Statement 6:</h4>
+            <p class='statement-labels'>You are a patient person.</p>
+            <select id='statement-6' class="form-control">
+              <option>Select one</option>
+              <option value='1'>1 (strongly disagree)</option>
+              <option value='2'>2 (disagree)</option>
+              <option value='3'>3 (neutral)</option>
+              <option value='4'>4 (agree)</option>
+              <option value='5'>5 (strongly agree)</option>
+            </select>
+          </div>
+
+          <div class='statement-divs'>
+            <h4>Statement 7:</h4>
+            <p class='statement-labels'>You are into rock music.</p>
+            <select id='statement-7' class="form-control">
+              <option>Select one</option>
+              <option value='1'>1 (strongly disagree)</option>
+              <option value='2'>2 (disagree)</option>
+              <option value='3'>3 (neutral)</option>
+              <option value='4'>4 (agree)</option>
+              <option value='5'>5 (strongly agree)</option>
+            </select>
+          </div>
+
+          <div class='statement-divs'>
+            <h4>Statement 8:</h4>
+            <p class='statement-labels'>You like going to concerts.</p>
+            <select id='statement-8' class="form-control">
+              <option>Select one</option>
+              <option value='1'>1 (strongly disagree)</option>
+              <option value='2'>2 (disagree)</option>
+              <option value='3'>3 (neutral)</option>
+              <option value='4'>4 (agree)</option>
+              <option value='5'>5 (strongly agree)</option>
+            </select>
+          </div>
+
+          <div class='statement-divs'>
+            <h4>Statement 9:</h4>
+            <p class='statement-labels'>You like chinese food.</p>
+            <select id='statement-9' class="form-control">
+              <option>Select one</option>
+              <option value='1'>1 (strongly disagree)</option>
+              <option value='2'>2 (disagree)</option>
+              <option value='3'>3 (neutral)</option>
+              <option value='4'>4 (agree)</option>
+              <option value='5'>5 (strongly agree)</option>
+            </select>
+          </div>
+
+          <div class='statement-divs'>
+            <h4>Statement 10:</h4>
+            <p class='statement-labels'>You prefer city life over country life.</p>
+            <select id='statement-10' class="form-control">
+              <option>Select one</option>
+              <option value='1'>1 (strongly disagree)</option>
+              <option value='2'>2 (disagree)</option>
+              <option value='3'>3 (neutral)</option>
+              <option value='4'>4 (agree)</option>
+              <option value='5'>5 (strongly agree)</option>
+            </select>
+          </div>
+        </div>
+        <button type="button" id="submit-button" class="btn btn-primary">Submit</button>
+
+      </div>
+    </div>
+
+    <div class="modal fade" tabindex="-1" role="dialog" id="modal">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">You have been matched with <span id="match-name"></span></h5>
+            </div>
+            <div class="modal-body">
+              <img id="match-image">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </div>
+
+  <footer>
+    <p> Made by Raymond Shoemaker 2019</p>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script>
+
+    $('#submit-button').on('click', function () {
+      event.preventDefault();
+
+      var newPerson = {
+        name: $('#name-input').val().trim(),
+        pictureLink: $('#picture-input').val().trim(),
+        statement1Answer: parseInt($('#statement-1').val()),
+        statement2Answer: parseInt($('#statement-2').val()),
+        statement3Answer: parseInt($('#statement-3').val()),
+        statement4Answer: parseInt($('#statement-4').val()),
+        statement5Answer: parseInt($('#statement-5').val()),
+        statement6Answer: parseInt($('#statement-6').val()),
+        statement7Answer: parseInt($('#statement-7').val()),
+        statement8Answer: parseInt($('#statement-8').val()),
+        statement9Answer: parseInt($('#statement-9').val()),
+        statement10Answer: parseInt($('#statement-10').val())
+      }
+
+      $.post('/api/friends', newPerson,
+        function (res) {
+          console.log(res)
+          $("#match-name").html(res.name);
+          $("#match-image").attr("src", res.pictureLink);
+          $("#match-image").height("254");
+          $("#match-image").width("350");
+          $("#modal").modal("show");
+          $("#submit").attr('disabled', 'disabled');
+        })
+    })
+
+   
+
+  </script>
+</body>
+
+</html>
