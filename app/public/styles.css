@@ -16,6 +16,18 @@
   width: 100%;
 }
 
+form {
+  width: 100%;
+}
+
+#form-header {
+  text-align: center;
+  font-size: 25px;
+  color:midnightblue; 
+  font-weight: bold;
+  margin: 15px 0px;
+}
+
 .form-control {
   width: 100%;
   background: #efefef;
